@@ -224,8 +224,43 @@ TypeError: unsupported operand type(s) for %: 'dict' and 'dict' '''
 '''
 TypeError: unsupported operand type(s) for %: 'set' and 'set' '''
 
-a=20
-b=[10,20]
-print(a+b)
+# a=20
+# b=[10,20]
+# print(a+b)
 '''
 TypeError: unsupported operand type(s) for +: 'int' and 'list' '''
+
+# a=10
+# b=(10,20,30)
+# print(a+b)
+'''
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple' '''
+
+# a=10
+# b={1:"jay"}
+# print(a+b)
+'''
+TypeError: unsupported operand type(s) for +: 'int' and 'dict' '''
+
+a=10
+b=True
+print(a+b)
+'''
+11'''
+
+a=True
+b=False
+print(a+b)
+'''
+1'''
+
+print(False+False)
+'''0'''
+
+a=10
+b=False
+print(a+b)
+'''
+10'''
+
+
