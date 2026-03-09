@@ -263,4 +263,13 @@ print(a+b)
 '''
 10'''
 
+a="jay"
+b=3
+print(a*b)
+'''
+jayjayjay'''
+
+
+
+
 
